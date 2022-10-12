@@ -1,35 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Inter', sans-serif!important;
 }
 
 * {
   box-sizing: border-box;
 }
 
-main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+/* containers */
 
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
-}
-
-.container {
+.vh-100 {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
+
+.vh-80 {
+  height: 80vh;
+}
+
+.vh-60 {
+  height: 60vh;
+}
+
+.vh-40 {
+  height: 40vh;
+}
+
+.vh-20 {
+  height: 20vh;
+}
+
+.w-60 {
+  width: 60%!important;
+}
+
+
+/* typography */
+
+h1,.h1 {
+font-family: 'Inter', sans-serif!important;
+font-style: normal;
+font-weight: 500!important;
+font-size: calc(3rem + 1.5vw)!important;
+line-height: calc(3rem + 1.5vw)!important;
+}
+
+
+/* buttons */
+
+.btn {
+  background-color: transparent!important;
+  padding: 8px 24px!important;
+  font-size: .7rem!important;
+  font-weight: 600!important;
+  letter-spacing: .1em!important;
+  border: none!important;
+  border-radius: 4px!important;
+}
+
+.btn-link {
+  color: #369673!important;
+  background-color: transparent!important;
+  font-size: .7rem!important;
+  font-weight: 600!important;
+  letter-spacing: .1em!important;
+}
+
+.btn-link:hover {
+  color: #369673!important;
+  background-color: #FAFAFA!important;
+
+}
+
+.btn-primary {
+  color: #fff!important;
+  background-color: #369673!important;
+  font-size: .7rem!important;
+  font-weight: 600!important;
+  letter-spacing: .1em!important;
+}
+
+
+/* colours */
+
+.dark-grey {
+  color: #282828!important;
+ }
+
+ .green {
+  color: #369673!important;
+ }
+
+
+ /* colours */
+
+ .bg-shape-top {
+  background-image: url("/circle-arrow.svg")!important;
+ }
