@@ -90,6 +90,12 @@ line-height: calc(3.2rem + 1.5vw)!important;
   font-weight: 600!important;
   letter-spacing: .1em!important;
   border: none!important;
+  transition: 0.5s;
+}
+
+.btn-primary:hover {
+  transition: 0.2s ease-in;
+  background-image: linear-gradient(rgb(0 0 0/4%) 0 0);
 }
 
 .btn-secondary {

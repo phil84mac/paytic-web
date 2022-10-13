@@ -57,9 +57,9 @@ export default function Home() {
         </section>
 
         <section id="how-it-works">
-          <Container fluid className="vh-100 px-xl-5 px-4 px-lg-5">
-            <div className="px-xl-5">
-            <Row className="mt-5 mb-4 px-xl-5">
+          <Container fluid className="vh-100 px-xl-5 px-4 px-lg-5 py-5">
+            <div className="px-xl-5 py-5">
+            <Row className="px-xl-5 py-3">
               <Col lg={9} className="">
                 <h6>
 
