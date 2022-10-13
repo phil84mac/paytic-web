@@ -70,7 +70,7 @@ export default function Home() {
                 <Image src="/app-feature-placeholder.png" className="w-100 drop-shadow border-radius"/>
               </Col>
               <Col xxl={3} className="d-flex align-items-center">
-                  <Row className="ps-xxl-3 g-4 pt-5 pt-xxl-0">
+                  <Row className="ps-xxl-4 g-4 pt-5 pt-xxl-0">
                     <Col sm={4} xxl={12}>
                       <div className="brand-card p-4">
                         <h4>
