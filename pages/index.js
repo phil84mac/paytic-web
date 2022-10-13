@@ -23,7 +23,7 @@ export default function Home() {
         <section id="hero" className="bg-shape-top px-0">
           <Container fluid className="px-xl-5 py-5 px-4 px-lg-5 bg-hero">
             <div className="px-xl-5 py-5">
-            <Row className="vh-65 mb-4 px-xl-5 py-3">
+            <Row className="vh-65 mb-4 px-xl-5 pt-3">
               <Col lg={6} className="mb-5">
                <h1 className="mt-0">
                A smarter way to manage card programs
