@@ -16,14 +16,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <div className="bg-shape-top px-0">
       <Header />
       
-      <main>
+      <main className>
         
-          <Container fluid className="vh-100 px-xl-5 px-4 px-lg-5 bg-hero">
-            <div className="px-xl-5">
-            <Row className="vh-65 mt-5 mb-4 px-xl-5 ">
+        <section id="hero" className="bg-shape-top px-0">
+          <Container fluid className="vh-100 px-xl-5 py-5 px-4 px-lg-5 bg-hero">
+            <div className="px-xl-5 py-5">
+            <Row className="vh-65 mb-4 px-xl-5 py-3">
               <Col lg={6} className="mb-5">
                <h1 className="mt-0">
                A smarter way to manage card programs
@@ -54,9 +54,31 @@ export default function Home() {
             </Row>  
             </div>
           </Container>
+        </section>
+
+        <section id="how-it-works">
+          <Container fluid className="vh-100 px-xl-5 px-4 px-lg-5">
+            <div className="px-xl-5">
+            <Row className="mt-5 mb-4 px-xl-5">
+              <Col lg={9} className="">
+                <h6>
+
+                </h6>
+                <h2>
+                  
+                </h2>
+
+              </Col>
+              <Col lg={3} className="">
+
+               </Col>
+            </Row>
+            </div>
+          </Container>
+        </section>
         
       </main>
-      </div>
+
       <Footer />
       </>
   )

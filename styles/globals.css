@@ -52,8 +52,8 @@ h1,.h1 {
 font-family: 'Inter', sans-serif!important;
 font-style: normal;
 font-weight: 500!important;
-font-size: calc(3rem + 1.5vw)!important;
-line-height: calc(3rem + 1.5vw)!important;
+font-size: calc(3.2rem + 1.5vw)!important;
+line-height: calc(3.2rem + 1.5vw)!important;
 }
 
 
@@ -120,6 +120,12 @@ line-height: calc(3rem + 1.5vw)!important;
 
  .bg-trans {
   background-color: transparent;
+ }
+
+ /* components */
+
+ .top-nav {
+  position: absolute;
  }
 
 
