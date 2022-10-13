@@ -26,16 +26,16 @@ export default function Header() {
               </div>
                 
               <div className="d-flex align-items-center">
-                <Button href="/" variant="link" className="px-2 mx-2 text-decoration-none text-uppercase">
+                <Button href="/" variant="link" className="px-3 mx-2 text-decoration-none text-uppercase">
                   How it works
                 </Button>
-                <Button href="/" variant="link" className="px-2 mx-2 text-decoration-none text-uppercase">
+                <Button href="/" variant="link" className="px-3 mx-2 text-decoration-none text-uppercase">
                   Who it's for
                 </Button>
-                <Button href="/" variant="link" className="px-2 ms-2 me-4 text-decoration-none text-uppercase">
+                <Button href="/" variant="link" className="px-3 ms-2 me-3 text-decoration-none text-uppercase">
                   About
                 </Button>
-                <Button href="/" className="text-decoration-none text-uppercase">
+                <Button href="/" className="ms-3 text-decoration-none text-uppercase">
                   Book a demo
                 </Button>
               </div>

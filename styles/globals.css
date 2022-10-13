@@ -61,7 +61,7 @@ line-height: calc(3rem + 1.5vw)!important;
 
 .btn {
   background-color: transparent!important;
-  padding: 8px 24px!important;
+  padding: 8px 16px!important;
   font-size: .7rem!important;
   font-weight: 600!important;
   letter-spacing: .1em!important;
@@ -118,23 +118,23 @@ line-height: calc(3rem + 1.5vw)!important;
   color: #369673!important;
  }
 
+ .bg-trans {
+  background-color: transparent;
+ }
 
- /* colours */
+
+ /* images */
 
  .bg-shape-top {
   background-image: url("/bg-shape-top.svg")!important;
   background-repeat: no-repeat;
-  background-position: 0% 300%;
-  width: 100%;
-  height: auto;
+  background-size: contain;
  }
 
  .bg-hero {
   background-image: url("/logo-iso.svg")!important;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
-  height: auto;
  }
 
 
