@@ -223,3 +223,13 @@ h6,.h6 {
 .border-radius {
   border-radius: 5px;
 }
+
+
+@media (max-width: 576px) {
+
+  h1,.h1 {
+    font-size: 3.2rem!important;
+    line-height: 3.2rem!important;
+    }
+
+ }
