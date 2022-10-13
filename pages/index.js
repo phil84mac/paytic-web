@@ -64,7 +64,7 @@ export default function Home() {
                 <h6 className="text-muted pt-3 mb-4 border-top">
                   How it works
                 </h6>
-                <h2 className="mb-3 mb-lg-5">
+                <h2 className="mb-3 mb-5">
                   PayTic enables its clients to focus on growing their business
                 </h2>
                 <Image src="/app-feature-placeholder.png" className="w-100 drop-shadow border-radius"/>

@@ -56,7 +56,7 @@ export default function Header() {
               </div>
                 
               <div className="d-flex align-items-center">
-                <Button variant="link" onClick={handleShow} className="px-0">
+                <Button variant="link" onClick={handleShow} className="px-2">
                   <Image fluid src="/menu-button.svg" className="w-60" alt="PayTic Logo"/>
                 </Button>
               </div>
