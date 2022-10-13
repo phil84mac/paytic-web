@@ -5,6 +5,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Inter', sans-serif!important;
+  color: #282828!important;
 }
 
 * {
@@ -56,12 +57,45 @@ font-size: calc(3.2rem + 1.5vw)!important;
 line-height: calc(3.2rem + 1.5vw)!important;
 }
 
+h2,.h2 {
+  font-family: 'Inter', sans-serif!important;
+  font-style: normal;
+  font-weight: 500!important;
+  font-size: calc(2.5rem + 1.5vw)!important;
+  line-height: calc(2.6rem + 1.5vw)!important;
+  }
+
+h3,.h3 {
+  font-family: 'Inter', sans-serif!important;
+  font-style: normal;
+  font-weight: 500!important;
+  font-size: calc(1.8rem + 1.5vw)!important;
+  line-height: calc(2rem + 1.5vw)!important;
+  }
+
+  h4,.h4 {
+    font-family: 'Inter', sans-serif!important;
+    font-style: normal;
+    font-weight: 500!important;
+    font-size: 1.3rem!important;
+    line-height: 1.2!important;
+    }
+
+h6,.h6 {
+  font-family: 'Inter', sans-serif!important;
+  text-transform: uppercase!important;
+  font-style: normal;
+  font-weight: 500!important;
+  font-size: 14px!important;
+  letter-spacing: 2px;
+  }
+
 
 /* buttons */
 
 .btn {
   background-color: transparent!important;
-  padding: 8px 16px!important;
+  padding: 8px 20px!important;
   font-size: .7rem!important;
   font-weight: 600!important;
   letter-spacing: .1em!important;
@@ -138,17 +172,28 @@ line-height: calc(3.2rem + 1.5vw)!important;
  /* images */
 
  .bg-shape-top {
-  background-image: url("/bg-shape-top.svg")!important;
+  background-image: url("/bg-shape-top.svg");
   background-repeat: no-repeat;
   background-size: contain;
  }
 
  .bg-hero {
-  background-image: url("/logo-iso.svg")!important;
+  background-image: url("/logo-iso.svg");
   background-repeat: no-repeat;
   background-position: center;
  }
 
+
+ /* cards */
+
+ .brand-card {
+  background-image: url("/bg-card.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 5px;
+  border: 1px solid #dee2e6;
+  height: 100%;
+ }
 
  /* effects */
 
@@ -169,4 +214,12 @@ line-height: calc(3.2rem + 1.5vw)!important;
   margin-left: 6px;
   display: inline-block;
   transform: rotate(0deg);
+}
+
+.drop-shadow { 
+  filter: drop-shadow(0px 1px 24px rgba(0, 0, 0, 0.25));
+}
+
+.border-radius {
+  border-radius: 5px;
 }

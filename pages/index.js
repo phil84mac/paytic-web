@@ -21,7 +21,7 @@ export default function Home() {
       <main className>
         
         <section id="hero" className="bg-shape-top px-0">
-          <Container fluid className="vh-100 px-xl-5 py-5 px-4 px-lg-5 bg-hero">
+          <Container fluid className="px-xl-5 py-5 px-4 px-lg-5 bg-hero">
             <div className="px-xl-5 py-5">
             <Row className="vh-65 mb-4 px-xl-5 py-3">
               <Col lg={6} className="mb-5">
@@ -57,21 +57,52 @@ export default function Home() {
         </section>
 
         <section id="how-it-works">
-          <Container fluid className="vh-100 px-xl-5 px-4 px-lg-5 py-5">
+          <Container fluid className="px-xl-5 px-4 px-lg-5 py-5">
             <div className="px-xl-5 py-5">
             <Row className="px-xl-5 py-3">
-              <Col lg={9} className="">
-                <h6>
-
+              <Col xxl={9} className="">
+                <h6 className="text-muted pt-3 mb-4 border-top">
+                  How it works
                 </h6>
-                <h2>
-                  
+                <h2 className="mb-3 mb-lg-5">
+                  PayTic enables its clients to focus on growing their business
                 </h2>
-
+                <Image src="/app-feature-placeholder.png" className="w-100 drop-shadow border-radius"/>
               </Col>
-              <Col lg={3} className="">
-
-               </Col>
+              <Col xxl={3} className="d-flex align-items-center">
+                  <Row className="ps-xxl-3 g-4 pt-5 pt-xxl-0">
+                    <Col sm={4} xxl={12}>
+                      <div className="brand-card p-4">
+                        <h4>
+                        Collect and Organize Transaction Data
+                        </h4>
+                        <p className="text-muted">
+                        Reconcile payments, remove blind spots and help with regulatory compliance
+                        </p>
+                      </div>
+                    </Col>
+                    <Col sm={4} xxl={12}>
+                      <div className="brand-card p-4">
+                        <h4>
+                        Automate Critical Processes
+                        </h4>
+                        <p className="text-muted">
+                        Free up time for more value-add activities and manage your program across functions
+                        </p>
+                      </div>
+                    </Col>
+                    <Col sm={4} xxl={12}>
+                      <div className="brand-card p-4">
+                        <h4>
+                        Apply Dashboards and Actionable Intel
+                        </h4>
+                        <p className="text-muted">
+                        With more oversight, you will be more confident in launching and scaling card programs
+                        </p>
+                      </div>
+                    </Col> 
+                  </Row>
+              </Col>
             </Row>
             </div>
           </Container>
