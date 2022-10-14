@@ -14,7 +14,7 @@ export default function Header() {
   const handleShow = () => setShow(true);
   return (
     <>
-    <div className="px-lg-5 w-100 d-none d-lg-block top-nav py-3" id="home">
+    <div className="px-lg-5 w-100 d-none d-lg-block top-nav py-3">
       <Container fluid className="px-xl-5">
           <Row className="px-xl-5">
             <Col xs={12} className=" d-flex align-items-center justify-content-between">
@@ -26,13 +26,13 @@ export default function Header() {
               </div>
                 
               <div className="d-flex align-items-center">
-                <Button href="/" variant="link" className="px-3 mx-2 text-decoration-none text-uppercase">
+                <Button href="#how-it-works" variant="link" className="px-3 mx-2 text-decoration-none text-uppercase">
                   How it works
                 </Button>
-                <Button href="/" variant="link" className="px-3 mx-2 text-decoration-none text-uppercase">
+                <Button href="#who-its-for" variant="link" className="px-3 mx-2 text-decoration-none text-uppercase">
                   Who it's for
                 </Button>
-                <Button href="/" variant="link" className="px-3 ms-2 me-3 text-decoration-none text-uppercase">
+                <Button href="#about" variant="link" className="px-3 ms-2 me-3 text-decoration-none text-uppercase">
                   About
                 </Button>
                 <Button href="/" className="ms-3 text-decoration-none text-uppercase">
@@ -65,19 +65,19 @@ export default function Header() {
       </Container>
     </div>
 
-    <Offcanvas show={show} onHide={handleClose} placement="end">
+    <Offcanvas show={show} onHide={handleClose} placement="end" restoreFocus={false}>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>Menu</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body >
           <div className="p-1 d-flex align-items-start flex-column bd-highlight h-100">
-                <Button href="/" variant="link" className="w-100 px-0 my-3 text-decoration-none text-uppercase border-top">
+                <Button href="#how-it-works" onClick={handleClose} variant="link" className="w-100 px-0 my-3 text-decoration-none text-uppercase ">
                   How it works
                 </Button>
-                <Button href="/" variant="link" className="w-100 px-0 my-3 text-decoration-none text-uppercase border-top">
+                <Button href="#who-its-for" onClick={handleClose} variant="link" className="w-100 px-0 my-3 text-decoration-none text-uppercase ">
                   Who it's for
                 </Button>
-                <Button href="/" variant="link" className="w-100 px-0 my-3 text-decoration-none text-uppercase border-top">
+                <Button href="#about" onClick={handleClose} variant="link" className="w-100 px-0 my-3 text-decoration-none text-uppercase ">
                   About
                 </Button>
                 <Button href="/" className="mt-auto bd-highlight w-100 text-decoration-none text-uppercase">

@@ -17,10 +17,10 @@ export default function Home() {
       </Head>
       
       <Header />
-      
+      <div className="bg-shape-bottom">
       <main className>
         
-        <section id="hero" className="bg-shape-top px-0">
+        <section id="hero" className="bg-shape-top px-0 py-lg-4">
           <Container fluid className="px-xl-5 py-5 px-4 px-lg-5 bg-hero">
             <div className="px-xl-5 py-5">
             <Row className="vh-65 mb-4 px-xl-5 pt-3">
@@ -107,10 +107,37 @@ export default function Home() {
             </div>
           </Container>
         </section>
+
+        <section id="who-its-for">
+          <Container fluid className="px-xl-5 px-4 px-lg-5 py-5">
+            <div className="px-xl-5 py-5">
+            <Row className="px-xl-5 py-3">
+              <Col md={6} className="d-flex align-items-center">
+                <Image src="/paytic-infographic.svg" className="w-100 d-none d-md-block pe-lg-5"/>
+              </Col>
+              <Col md={6} className="d-flex align-items-center">
+                <div>
+                  <h6 className="text-muted pt-3 mb-4 border-top">
+                    Who it's for
+                  </h6>
+                  <h3 className="mb-3 mb-5">
+                  Connect your Data, Automate Processes
+                  </h3>
+                  <Image src="/paytic-infographic.svg" className="w-100 d-md-none pt-3 pb-5"/>
+                  <p className="text-muted lead">
+                  While the cardholder & acquirer-facing side of the payments ecosystem has seen significant technology innovation, the issuer-facing or back-office side has remained largely stagnant. To get the work done, there's generally a lack of expertise, silos of data and tedious manual work. PayTic Connect connects your data and automates processes, to give you more time to focus on your business.
+                  </p>
+                </div>
+              </Col>
+            </Row>
+            </div>
+          </Container>
+        </section>
         
       </main>
-
+      
       <Footer />
+      </div>
       </>
   )
 }
