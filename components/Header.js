@@ -67,17 +67,17 @@ export default function Header() {
 
     <Offcanvas show={show} onHide={handleClose} placement="end" restoreFocus={false}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Menu</Offcanvas.Title>
+          <Offcanvas.Title className="h6 text-muted">Menu</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body >
-          <div className="p-1 d-flex align-items-start flex-column bd-highlight h-100">
-                <Button href="#how-it-works" onClick={handleClose} variant="link" className="w-100 px-0 my-3 text-decoration-none text-uppercase ">
+          <div className="p-1 d-flex align-items-start flex-column bd-highlight h-100 ">
+                <Button href="#how-it-works" onClick={handleClose} variant="link" className="w-100 menu px-0 my-3 text-decoration-none text-uppercase">
                   How it works
                 </Button>
-                <Button href="#who-its-for" onClick={handleClose} variant="link" className="w-100 px-0 my-3 text-decoration-none text-uppercase ">
+                <Button href="#who-its-for" onClick={handleClose} variant="link" className="w-100 menu px-0 my-3 text-decoration-none text-uppercase ">
                   Who it's for
                 </Button>
-                <Button href="#about" onClick={handleClose} variant="link" className="w-100 px-0 my-3 text-decoration-none text-uppercase ">
+                <Button href="#about" onClick={handleClose} variant="link" className="w-100 menu px-0 my-3 text-decoration-none text-uppercase ">
                   About
                 </Button>
                 <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" className="mt-auto bd-highlight w-100 text-decoration-none text-uppercase">

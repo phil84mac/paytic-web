@@ -129,7 +129,7 @@ export default function Home() {
                   <p className="text-muted lead mb-5">
                   While the cardholder & acquirer-facing side of the payments ecosystem has seen significant technology innovation, the issuer-facing or back-office side has remained largely stagnant. To get the work done, there's generally a lack of expertise, silos of data and tedious manual work. <span className="bold">PayTic Connect</span> connects your data and automates processes, to give you more time to focus on your business.
                   </p>
-                  <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" variant="dark">
+                  <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" className="w-100">
                     BOOK A DEMO
                   </Button>
                 </div>
