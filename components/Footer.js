@@ -31,7 +31,7 @@ export default function Footer() {
                 <Button href="#about" variant="link" className="px-3 ms-2 me-3 text-decoration-none text-uppercase dark-grey d-none d-lg-block">
                   About
                 </Button>
-                <Button href="/" variant="dark" className="ms-3 text-decoration-none text-uppercase">
+                <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" variant="dark" className="ms-3 text-decoration-none text-uppercase">
                   Book a demo
                 </Button>
               </div>

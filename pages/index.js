@@ -37,7 +37,7 @@ export default function Home() {
             </Row>
             <Row className="mt-xs-5">
               <Col xs={12} className="d-flex justify-content-center mb-3">
-                <Button href="/" className="w-100 d-lg-none">
+                <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" className="w-100 d-lg-none">
                   BOOK A DEMO
                 </Button>
               </Col>
@@ -127,9 +127,9 @@ export default function Home() {
                   </h3>
                   <Image src="/paytic-infographic.svg" className="w-100 d-md-none pt-3 pb-5"/>
                   <p className="text-muted lead mb-5">
-                  While the cardholder & acquirer-facing side of the payments ecosystem has seen significant technology innovation, the issuer-facing or back-office side has remained largely stagnant. To get the work done, there's generally a lack of expertise, silos of data and tedious manual work. PayTic Connect connects your data and automates processes, to give you more time to focus on your business.
+                  While the cardholder & acquirer-facing side of the payments ecosystem has seen significant technology innovation, the issuer-facing or back-office side has remained largely stagnant. To get the work done, there's generally a lack of expertise, silos of data and tedious manual work. <span className="bold">PayTic Connect</span> connects your data and automates processes, to give you more time to focus on your business.
                   </p>
-                  <Button>
+                  <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" variant="dark">
                     BOOK A DEMO
                   </Button>
                 </div>
@@ -228,6 +228,27 @@ export default function Home() {
                             <p className="text-muted">
                             Ayyoub is responsible for ensuring that PayTic's clients are getting maximum value from their SaaS subscription.  Before PayTic Ayyoub managed payment programs for over 50 banks and financial institutions in Europe, Asia, and Americas. He has worked closely with executives at these institutions to monitor performance, improve processes, and optimize their operations.
                             </p>
+                          </div>
+                        </Col>
+                      </Row>
+                    </div>
+                  </Col>
+                  <Col xs={12}>
+                    <div className="border-grey border-radius p-4">
+                      <Row>
+                        <Col md={3}>
+                          <Image src="/laila.png" className="w-100 mb-4 mb-md-0"/>
+                        </Col>
+                        <Col md={9} className="d-flex align-items-center">
+                          <div>
+                            <h4 className="mb-0">
+                            Laila Fetjah
+                            </h4>
+                            <p className="">
+                            CTO
+                            </p>
+                            <p className="text-muted">
+                            Laila is responsible for the development, security and the scalability of the PayTic product. Laila holds a doctorate in computer science and a master's degree in computer systems from the University of Quebec in Montreal. She has worked as an IT manager/director at several IT service companies and as a University professor at Hassan II University in Morocco.                            </p>
                           </div>
                         </Col>
                       </Row>

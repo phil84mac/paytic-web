@@ -35,7 +35,7 @@ export default function Header() {
                 <Button href="#about" variant="link" className="px-3 ms-2 me-3 text-decoration-none text-uppercase">
                   About
                 </Button>
-                <Button href="/" className="ms-3 text-decoration-none text-uppercase">
+                <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" className="ms-3 text-decoration-none text-uppercase">
                   Book a demo
                 </Button>
               </div>
@@ -80,7 +80,7 @@ export default function Header() {
                 <Button href="#about" onClick={handleClose} variant="link" className="w-100 px-0 my-3 text-decoration-none text-uppercase ">
                   About
                 </Button>
-                <Button href="/" className="mt-auto bd-highlight w-100 text-decoration-none text-uppercase">
+                <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" className="mt-auto bd-highlight w-100 text-decoration-none text-uppercase">
                   Book a demo
                 </Button>
             </div>
