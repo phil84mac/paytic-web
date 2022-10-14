@@ -30,7 +30,7 @@ export default function Home() {
                </h1>
               </Col>
               <Col lg={6} className="mt-auto multiply">
-               <p className="lead border-top pt-3">
+               <p className="lead text-muted border-top pt-3">
                We help payment card issuers (banks, credit unions & fintechs) modernize their program management functions including reconciliation, chargebacks and compliance via an easy to use, secure SaaS solution. 
                </p>
                </Col>
