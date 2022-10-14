@@ -151,7 +151,8 @@ export default function Home() {
                   Empowering Payment Program Managers to Modernize Their Back-Office
                 </h2>
               </Col>
-              <Col lg={4} xl={3} className=" mb-5">
+              <Col lg={4} xl={3} className="mb-5 mb-lg-0">
+                <div className="sticky">
                 <h6 className="gold bold pt-3 mb-3 border-top-gold">
                     OUR MISSION
                   </h6>
@@ -161,6 +162,7 @@ export default function Home() {
                   <p className="text-muted">
                 We worked closely with many issuers and program managers over the past decade. We learned from you, and we want to give back. Contrary to all other industries, we learned that there is a lack of dedicated solutions that answer the complex needs of payments management. We believe that easing the processes will enable our partners to scale and bring more disruptive products to the market.
                 </p>
+                </div>
               </Col>
               <Col lg={8} xl={9} className="">
               <h6 className="green bold pt-3 mb-4 border-top-green">

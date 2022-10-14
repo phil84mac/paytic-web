@@ -268,6 +268,12 @@ h6,.h6 {
   cursor: pointer!important;
  }
 
+ .sticky {
+top: 30px;
+ position: sticky;
+
+}
+
 /* arrows */
 
  .arrow-down:after {
