@@ -42,12 +42,12 @@ export default function Home() {
                 </Button>
               </Col>
               <Col xs={12} className="d-flex justify-content-center">
-                <Button href="/" variant="secondary" className="w-100 d-lg-none arrow-down">
+                <Button href="#how-it-works" variant="secondary" className="w-100 d-lg-none arrow-down">
                   LEARN MORE
                 </Button>
               </Col>
               <Col xs={12} className="d-flex justify-content-center">
-                <Button href="/" variant="secondary" className="d-none d-lg-block arrow-down">
+                <Button href="#how-it-works" variant="secondary" className="d-none d-lg-block arrow-down">
                   LEARN MORE
                 </Button>
               </Col>
@@ -67,7 +67,9 @@ export default function Home() {
                 <h2 className="mb-3 mb-5">
                   PayTic enables its clients to focus on growing their business
                 </h2>
-                <Image src="/app-feature-placeholder.png" className="w-100 drop-shadow border-radius"/>
+                <video className="w-100 drop-shadow border-radius" autoPlay loop muted >
+                  <source src="/paytic-video-clip.mp4" type='video/mp4' />
+                </video>
               </Col>
               <Col xxl={3} className="d-flex align-items-center">
                   <Row className="ps-xxl-4 g-4 pt-5 pt-xxl-0">
