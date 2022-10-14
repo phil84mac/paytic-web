@@ -126,9 +126,12 @@ export default function Home() {
                   Connect your Data, Automate Processes
                   </h3>
                   <Image src="/paytic-infographic.svg" className="w-100 d-md-none pt-3 pb-5"/>
-                  <p className="text-muted lead">
+                  <p className="text-muted lead mb-5">
                   While the cardholder & acquirer-facing side of the payments ecosystem has seen significant technology innovation, the issuer-facing or back-office side has remained largely stagnant. To get the work done, there's generally a lack of expertise, silos of data and tedious manual work. PayTic Connect connects your data and automates processes, to give you more time to focus on your business.
                   </p>
+                  <Button>
+                    BOOK A DEMO
+                  </Button>
                 </div>
               </Col>
             </Row>
@@ -144,11 +147,11 @@ export default function Home() {
                   <h6 className="text-muted pt-3 mb-4 border-top">
                     About
                   </h6>
-                  <h2 className="h1">
+                  <h2 className="">
                   Empowering Payment Program Managers to Modernize Their Back-Office
                 </h2>
               </Col>
-              <Col lg={4} className="">
+              <Col lg={4} xl={3} className=" mb-5">
                 <h6 className="gold bold pt-3 mb-3 border-top-gold">
                     OUR MISSION
                   </h6>
@@ -159,10 +162,78 @@ export default function Home() {
                 We worked closely with many issuers and program managers over the past decade. We learned from you, and we want to give back. Contrary to all other industries, we learned that there is a lack of dedicated solutions that answer the complex needs of payments management. We believe that easing the processes will enable our partners to scale and bring more disruptive products to the market.
                 </p>
               </Col>
-              <Col lg={8} className="">
-              <h6 className="green bold pt-3 mb-3 border-top-green">
+              <Col lg={8} xl={9} className="">
+              <h6 className="green bold pt-3 mb-4 border-top-green">
                     LEADERSHIP TEAM
-                  </h6>
+              </h6>
+                <Row className="g-4">
+                <Col xs={12}>
+                    <div className="border-grey border-radius p-4">
+                      <Row>
+                        <Col md={3}>
+                          <Image src="/Imad_idy.png" className="w-100 mb-4 mb-md-0"/>
+                        </Col>
+                        <Col md={9} className="d-flex align-items-center">
+                          <div>
+                            <h4 className="mb-0">
+                            Imad Boumahdi
+                            </h4>
+                            <p className="">
+                            Founder & CEO
+                            </p>
+                            <p className="text-muted">
+                            Imad founded PayTic in 2020 to power the industry with dedicated technologies that help BIN sponsors and their affiliates in complying with the industry standards and managing their day-to-day operations including chargebacks, frauds, customer support, reconciliation, and more. He has 15+ years experience in Payment Cards Processing including credit, debit, prepaid cards, mobile payments, and processing operations.
+                            </p>
+                          </div>
+                        </Col>
+                      </Row>
+                    </div>
+                  </Col>
+                  <Col xs={12}>
+                    <div className="border-grey border-radius p-4">
+                      <Row>
+                        <Col md={3}>
+                          <Image src="/GLAW_idg.png" className="w-100 mb-4 mb-md-0"/>
+                        </Col>
+                        <Col md={9} className="d-flex align-items-center">
+                          <div>
+                            <h4 className="mb-0">
+                            Gerry Lawless
+                            </h4>
+                            <p className="">
+                            Chief Product Officer
+                            </p>
+                            <p className="text-muted">
+                            Gerry is responsible for product strategy, product marketing and product management. Over the span of 20 years, Gerry has held various product leadership roles at iWave and IBM. He has a passion for solving client problems with technology, and he has helped build several award-winning products.
+                            </p>
+                          </div>
+                        </Col>
+                      </Row>
+                    </div>
+                  </Col>
+                  <Col xs={12}>
+                    <div className="border-grey border-radius p-4">
+                      <Row>
+                        <Col md={3}>
+                          <Image src="/DSC_0562_idy.png" className="w-100 mb-4 mb-md-0"/>
+                        </Col>
+                        <Col md={9} className="d-flex align-items-center">
+                          <div>
+                            <h4 className="mb-0">
+                            Ayyoub Rqibi
+                            </h4>
+                            <p className="">
+                            VP of Client Success
+                            </p>
+                            <p className="text-muted">
+                            Ayyoub is responsible for ensuring that PayTic's clients are getting maximum value from their SaaS subscription.  Before PayTic Ayyoub managed payment programs for over 50 banks and financial institutions in Europe, Asia, and Americas. He has worked closely with executives at these institutions to monitor performance, improve processes, and optimize their operations.
+                            </p>
+                          </div>
+                        </Col>
+                      </Row>
+                    </div>
+                  </Col>
+                </Row>
               </Col>
             </Row>
             </div>
