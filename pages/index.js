@@ -135,6 +135,39 @@ export default function Home() {
             </div>
           </Container>
         </section>
+
+        <section id="about">
+          <Container fluid className="px-xl-5 px-4 px-lg-5 py-5">
+            <div className="px-xl-5 py-5">
+            <Row className="px-xl-5 py-3">
+              <Col xs={12} className="mb-5">
+                  <h6 className="text-muted pt-3 mb-4 border-top">
+                    About
+                  </h6>
+                  <h2 className="h1">
+                  Empowering Payment Program Managers to Modernize Their Back-Office
+                </h2>
+              </Col>
+              <Col lg={4} className="">
+                <h6 className="gold bold pt-3 mb-3 border-top-gold">
+                    OUR MISSION
+                  </h6>
+                  <p className="lead text-muted">
+                Help banks, credit unions, and fintech companies modernize their payment program management functions via SaaS product
+                </p>
+                  <p className="text-muted">
+                We worked closely with many issuers and program managers over the past decade. We learned from you, and we want to give back. Contrary to all other industries, we learned that there is a lack of dedicated solutions that answer the complex needs of payments management. We believe that easing the processes will enable our partners to scale and bring more disruptive products to the market.
+                </p>
+              </Col>
+              <Col lg={8} className="">
+              <h6 className="green bold pt-3 mb-3 border-top-green">
+                    LEADERSHIP TEAM
+                  </h6>
+              </Col>
+            </Row>
+            </div>
+          </Container>
+        </section>
         
       </main>
       

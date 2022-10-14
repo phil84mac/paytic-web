@@ -53,6 +53,14 @@ body {
 
 /* typography */
 
+p,.p {
+  font-weight: 300!important;
+}
+
+.lead {
+  font-weight: 400!important;
+}
+
 h1,.h1 {
 font-family: 'Inter', sans-serif!important;
 font-style: normal;
@@ -85,6 +93,14 @@ h3,.h3 {
     line-height: 1.2!important;
     }
 
+    h5,.h5 {
+      font-family: 'Inter', sans-serif!important;
+      font-style: normal;
+      font-weight: 500!important;
+      font-size: 16px!important;
+      letter-spacing: 2px;
+      }
+
 h6,.h6 {
   font-family: 'Inter', sans-serif!important;
   text-transform: uppercase!important;
@@ -92,6 +108,11 @@ h6,.h6 {
   font-weight: 500!important;
   font-size: 14px!important;
   letter-spacing: 2px;
+  }
+
+
+  .bold {
+    font-weight: 700!important;
   }
 
 
@@ -178,6 +199,20 @@ h6,.h6 {
  .bg-trans {
   background-color: transparent;
  }
+
+ .gold {
+  color: #FDB427;
+ }
+
+  /* borders */
+
+  .border-top-gold {
+    border-top: 1px solid #FDB427!important;
+  }
+
+  .border-top-green {
+    border-top: 1px solid #369673!important;
+  }
 
  /* components */
 
