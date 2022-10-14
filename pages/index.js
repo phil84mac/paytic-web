@@ -72,7 +72,7 @@ export default function Home() {
                 </video>
               </Col>
               <Col xxl={3} className="">
-                  <Row className="ps-xxl-4 g-4 pt-5 pt-xxl-0 sticky">
+                  <Row className="ps-xxl-4 g-4 pt-5 pt-xxl-0 sticky-cards">
                     <Col sm={4} xxl={12}>
                       <div className="brand-card p-4">
                         <h4>

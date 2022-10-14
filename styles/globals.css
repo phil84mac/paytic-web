@@ -282,6 +282,13 @@ top: 30px;
 
 }
 
+.sticky-cards {
+  top: 10px;
+   position: sticky;
+  
+  }
+  
+
 /* arrows */
 
  .arrow-down:after {
