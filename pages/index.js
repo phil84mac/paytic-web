@@ -71,8 +71,8 @@ export default function Home() {
                   <source src="/paytic-video-clip.mp4" type='video/mp4' />
                 </video>
               </Col>
-              <Col xxl={3} className="d-flex align-items-center">
-                  <Row className="ps-xxl-4 g-4 pt-5 pt-xxl-0">
+              <Col xxl={3} className="">
+                  <Row className="ps-xxl-4 g-4 pt-5 pt-xxl-0 sticky">
                     <Col sm={4} xxl={12}>
                       <div className="brand-card p-4">
                         <h4>
