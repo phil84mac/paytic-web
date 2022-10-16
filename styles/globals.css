@@ -279,17 +279,24 @@ h6,.h6 {
  .sticky {
 top: 30px;
  position: sticky;
-
 }
 
 .sticky-cards {
   top: 10%;
    position: sticky;
-  
   }
   
 
 /* arrows */
+
+.video:after {
+  content: url("/video.svg");
+  position: relative;
+  top: 3px;
+  margin-left: 6px;
+  display: inline-block;
+  transform: rotate(0deg);
+}
 
  .arrow-down:after {
   content: url("/arrow-down.svg");

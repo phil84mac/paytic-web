@@ -7,8 +7,15 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
 export default function Home() {
+
+  const [show, setShowVideo] = useState(false);
+
+  const handleCloseVideo = () => setShowVideo(false);
+  const handleShowVideo = () => setShowVideo(true);
+
   return (
       <>
       <Head>
@@ -129,8 +136,11 @@ export default function Home() {
                   <p className="text-muted lead mb-5">
                   While the cardholder & acquirer-facing side of the payments ecosystem has seen significant technology innovation, the issuer-facing or back-office side has remained largely stagnant. To get the work done, there's generally a lack of expertise, silos of data and tedious manual work. <span className="bold">PayTic Connect</span> connects your data and automates processes, to give you more time to focus on your business.
                   </p>
-                  <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" className="w-100">
+                  <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" className="w-100 mb-3">
                     BOOK A DEMO
+                  </Button>
+                  <Button onClick={handleShowVideo} variant="secondary" className="w-100 video">
+                    WATCH VIDEO
                   </Button>
                 </div>
               </Col>
@@ -138,6 +148,24 @@ export default function Home() {
             </div>
           </Container>
         </section>
+
+        <Modal show={show} onHide={handleCloseVideo} size="lg" centered>
+          <Modal.Header closeButton>
+            <Modal.Title className="h6 text-muted">
+            Watch video
+            </Modal.Title>
+          </Modal.Header>
+          <Modal.Body className="">
+              <div class="embed-responsive vh-40 d-flex align-items-center justify-content-center">
+                <iframe class="embed-responsive-item w-100 h-100" src="https://www.youtube.com/embed/Mo2oNkcBB2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="dark" onClick={handleCloseVideo}>
+              CLOSE
+            </Button>
+          </Modal.Footer>
+        </Modal>
 
         <section id="about">
           <Container fluid className="px-xl-5 px-4 px-lg-5 py-5">
