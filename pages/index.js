@@ -8,6 +8,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import Table from 'react-bootstrap/Table';
 
 export default function Home() {
 
@@ -122,21 +123,49 @@ export default function Home() {
             <div className="px-xl-5 py-5">
             <Row className="px-xl-5 py-3">
               <Col md={6} className="d-flex align-items-center">
-                <Image src="/paytic-infographic.svg" className="w-100 d-none d-md-block pe-lg-5"/>
+                <div>
+                  <Image src="/paytic-infographic.svg" className="w-100 d-none d-md-block mt-4"/>
+                </div>
               </Col>
               <Col md={6} className="d-flex align-items-center">
                 <div>
                   <h6 className="text-muted pt-3 mb-4 border-top">
-                    Who it's for
+                    THE WHY OF PAYTIC
                   </h6>
-                  <h3 className="mb-3 mb-5">
+                  <h3 className="mb-3 mb-4">
                   Connect your Data, Automate Processes
                   </h3>
                   <Image src="/paytic-infographic.svg" className="w-100 d-md-none pt-3 pb-5"/>
-                  <p className="text-muted lead mb-5">
+                  <p className="text-muted mb-4">
                   While the cardholder & acquirer-facing side of the payments ecosystem has seen significant technology innovation, the issuer-facing or back-office side has remained largely stagnant. To get the work done, there's generally a lack of expertise, silos of data and tedious manual work. <span className="bold">PayTic Connect</span> connects your data and automates processes, to give you more time to focus on your business.
                   </p>
-                  <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" className="w-100 mb-3">
+                  <Table striped="columns" bordered hover variant="dark" className="mb-4">
+                    <thead>
+                      <tr>
+                        <th className="w-50 gold medium">Features</th>
+                        <th className="w-50 gold medium">Benefits</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="small">
+                        <td>Automation of critical processes relayed to reconciliation, fraud monitoring and chargebacks</td>
+                        <td>Free up time for more value-add activities and your card program more <span className="bold">efficiently</span></td>
+                      </tr>
+                      <tr className="small">
+                        <td>Embedded transitioning of cross-functional processed within one system of record</td>
+                        <td>Remove blind spots and help with regulatory <span className="bold">compliance</span></td>
+                      </tr>
+                      <tr className="small">
+                        <td>Omni-channel program management solution already integrated with processors and payment networks</td>
+                        <td>Increase your <span className="bold">capacity</span> to launch and scale new payment programs</td>
+                      </tr>
+                      <tr className="small">
+                        <td>A Saas, scalable approach to providing an end-to-end solution</td>
+                        <td>Allow us to focus on the technology, while you focus on business <span className="bold">outcomes</span></td>
+                      </tr>
+                    </tbody>
+                  </Table>               
+                  <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" className="w-100 mb-3 d-none">
                     BOOK A DEMO
                   </Button>
                   <Button onClick={handleShowVideo} variant="secondary" className="w-100 video">
