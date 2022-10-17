@@ -124,7 +124,7 @@ export default function Home() {
             <Row className="px-xl-5 py-3">
               <Col lg={6} className="d-flex align-items-center justify-content-center">
                 <div>
-                  <Image src="/paytic-infographic.svg" className="w-100 d-none d-lg-block"/>
+                  <Image src="/paytic-infographic.svg" className="w-100 d-none d-lg-block mt-3"/>
                 </div>
               </Col>
               <Col lg={6} className="d-flex align-items-center">
@@ -142,26 +142,78 @@ export default function Home() {
                   <Table striped="columns" className="mb-4 border-top">
                     <thead>
                       <tr>
-                        <th className="w-50 green regular">Features</th>
+                        <th className="w-50 text-muted regular">Features</th>
                         <th className="w-50 green regular">Benefits</th>
                       </tr>
                     </thead>
                     <tbody className="dark-grey">
                       <tr className="small text-muted">
-                        <td>Automation of critical processes relayed to reconciliation, fraud monitoring and chargebacks</td>
-                        <td>Free up time for more value-add activities and your card program more <span className="bold">efficiently</span></td>
+                        <td>
+                          <Row>
+                            <Col xs={11}>
+                              <p className="m-0 p-0">
+                              Automation of critical processes relayed to reconciliation, fraud monitoring and chargebacks
+                              </p>
+                            </Col>
+                            <Col xs={1} className="d-flex align-items-center">
+                              <div>
+                                <Image src="/chevron-right.svg" className="w-100" />
+                              </div>
+                            </Col>
+                          </Row>
+                        </td>
+                        <td>Free up time for more value-add activities and your card program more <span className="semi-bold ">efficiently</span></td>
                       </tr>
                       <tr className="small text-muted">
-                        <td>Embedded transitioning of cross-functional processed within one system of record</td>
-                        <td>Remove blind spots and help with regulatory <span className="bold">compliance</span></td>
+                        <td>
+                        <Row>
+                            <Col xs={11}>
+                              <p className="m-0 p-0">
+                              Embedded transitioning of cross-functional processed within one system of record
+                              </p>
+                            </Col>
+                            <Col xs={1} className="d-flex align-items-center">
+                              <div>
+                                <Image src="/chevron-right.svg" className="w-100" />
+                              </div>
+                            </Col>
+                          </Row>
+                          </td>
+                        <td>Remove blind spots and help with regulatory <span className="semi-bold ">compliance</span></td>
                       </tr>
                       <tr className="small text-muted">
-                        <td>Omni-channel program management solution already integrated with processors and payment networks</td>
-                        <td>Increase your <span className="bold">capacity</span> to launch and scale new payment programs</td>
+                        <td>
+                        <Row>
+                            <Col xs={11}>
+                              <p className="m-0 p-0">
+                              Omni-channel program management solution already integrated with processors and payment networks
+                              </p>
+                            </Col>
+                            <Col xs={1} className="d-flex align-items-center">
+                              <div>
+                                <Image src="/chevron-right.svg" className="w-100" />
+                              </div>
+                            </Col>
+                          </Row>
+                          </td>
+                        <td>Increase your <span className="semi-bold ">capacity</span> to launch and scale new payment programs</td>
                       </tr>
                       <tr className="small text-muted">
-                        <td>A Saas, scalable approach to providing an end-to-end solution</td>
-                        <td>Allow us to focus on the technology, while you focus on business <span className="bold">outcomes</span></td>
+                        <td>
+                          <Row>
+                            <Col xs={11}>
+                              <p className="m-0 p-0">
+                              A Saas, scalable approach to providing an end-to-end solution
+                              </p>
+                            </Col>
+                            <Col xs={1} className="d-flex align-items-center">
+                              <div>
+                                <Image src="/chevron-right.svg" className="w-100" />
+                              </div>
+                            </Col>
+                          </Row> 
+                        </td>
+                        <td>Allow us to focus on the technology, while you focus on business <span className="semi-bold ">outcomes</span></td>
                       </tr>
                     </tbody>
                   </Table>               

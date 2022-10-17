@@ -292,11 +292,10 @@ h6,.h6 {
   --bs-table-hover-bg: #F5F9F8!important;
  }
 
+
  .table-striped-columns>:not(caption)>tr>:nth-child(2n) {
   --bs-table-accent-bg: #F5F9F8!important;
-
 }
-
 
  /* cards */
 
