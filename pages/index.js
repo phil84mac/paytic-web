@@ -124,7 +124,7 @@ export default function Home() {
             <Row className="px-xl-5 py-3">
               <Col md={6} className="d-flex align-items-center justify-content-center">
                 <div>
-                  <Image src="/paytic-infographic.svg" className="w-100 d-none d-md-block mt-4"/>
+                  <Image src="/paytic-infographic.svg" className="w-100 d-none d-md-block mt-3"/>
                 </div>
               </Col>
               <Col md={6} className="d-flex align-items-center">
@@ -139,27 +139,27 @@ export default function Home() {
                   <p className="text-muted mb-4">
                   While the cardholder & acquirer-facing side of the payments ecosystem has seen significant technology innovation, the issuer-facing or back-office side has remained largely stagnant. To get the work done, there's generally a lack of expertise, silos of data and tedious manual work. <span className="bold">PayTic Connect</span> connects your data and automates processes, to give you more time to focus on your business.
                   </p>
-                  <Table striped="columns" hover className="mb-4 border-top">
+                  <Table striped="columns" className="mb-4 border-top">
                     <thead>
                       <tr>
                         <th className="w-50 green medium">Features</th>
                         <th className="w-50 green medium">Benefits</th>
                       </tr>
                     </thead>
-                    <tbody>
-                      <tr className="small">
+                    <tbody className="dark-grey">
+                      <tr className="small text-muted">
                         <td>Automation of critical processes relayed to reconciliation, fraud monitoring and chargebacks</td>
                         <td>Free up time for more value-add activities and your card program more <span className="bold">efficiently</span></td>
                       </tr>
-                      <tr className="small">
+                      <tr className="small text-muted">
                         <td>Embedded transitioning of cross-functional processed within one system of record</td>
                         <td>Remove blind spots and help with regulatory <span className="bold">compliance</span></td>
                       </tr>
-                      <tr className="small">
+                      <tr className="small text-muted">
                         <td>Omni-channel program management solution already integrated with processors and payment networks</td>
                         <td>Increase your <span className="bold">capacity</span> to launch and scale new payment programs</td>
                       </tr>
-                      <tr className="small">
+                      <tr className="small text-muted">
                         <td>A Saas, scalable approach to providing an end-to-end solution</td>
                         <td>Allow us to focus on the technology, while you focus on business <span className="bold">outcomes</span></td>
                       </tr>
@@ -168,7 +168,7 @@ export default function Home() {
                   <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" className="w-100 mb-3 d-none">
                     BOOK A DEMO
                   </Button>
-                  <Button onClick={handleShowVideo} variant="secondary" className="w-100 video mt-2">
+                  <Button onClick={handleShowVideo} className="w-100 video mt-2">
                     WATCH VIDEO
                   </Button>
                 </div>
@@ -210,7 +210,7 @@ export default function Home() {
               </Col>
               <Col lg={4} xl={3} className="mb-5 mb-lg-0">
                 <div className="sticky">
-                <h6 className="gold bold pt-3 mb-3 border-top-gold">
+                <h6 className="gold-text medium pt-3 mb-3 border-top-gold">
                     OUR MISSION
                   </h6>
                   <p className="lead text-muted">
@@ -222,7 +222,7 @@ export default function Home() {
                 </div>
               </Col>
               <Col lg={8} xl={9} className="">
-              <h6 className="green bold pt-3 mb-4 border-top-green">
+              <h6 className="green medium pt-3 mb-4 border-top-green">
                     LEADERSHIP TEAM
               </h6>
                 <Row className="g-4">
