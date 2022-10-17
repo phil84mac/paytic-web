@@ -124,7 +124,7 @@ export default function Home() {
             <Row className="px-xl-5 py-3">
               <Col md={6} className="d-flex align-items-center justify-content-center">
                 <div>
-                  <Image src="/paytic-infographic.svg" className="w-100 d-none d-md-block mt-3"/>
+                  <Image src="/paytic-infographic.svg" className="w-100 d-none d-md-block"/>
                 </div>
               </Col>
               <Col md={6} className="d-flex align-items-center">
