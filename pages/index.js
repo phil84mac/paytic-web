@@ -132,7 +132,7 @@ export default function Home() {
                   <h6 className="text-muted pt-3 mb-4 border-top">
                     THE WHY OF PAYTIC
                   </h6>
-                  <h3 className="mb-3 mb-4">
+                  <h3 className="mb-4">
                   Connect your Data, Automate Processes
                   </h3>
                   <Image src="/paytic-infographic.svg" className="w-100 d-md-none pt-3 pb-5"/>
@@ -142,8 +142,8 @@ export default function Home() {
                   <Table striped="columns" className="mb-4 border-top">
                     <thead>
                       <tr>
-                        <th className="w-50 green medium">Features</th>
-                        <th className="w-50 green medium">Benefits</th>
+                        <th className="w-50 green regular">Features</th>
+                        <th className="w-50 green regular">Benefits</th>
                       </tr>
                     </thead>
                     <tbody className="dark-grey">
@@ -213,7 +213,7 @@ export default function Home() {
                 <h6 className="gold-text medium pt-3 mb-3 border-top-gold">
                     OUR MISSION
                   </h6>
-                  <p className="lead text-muted">
+                  <p className="lead ">
                 Help banks, credit unions, and fintech companies modernize their payment program management functions via SaaS product
                 </p>
                   <p className="text-muted">

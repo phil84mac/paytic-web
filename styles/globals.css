@@ -69,8 +69,8 @@ h1,.h1 {
 font-family: 'Inter', sans-serif!important;
 font-style: normal;
 font-weight: 500!important;
-font-size: calc(3.2rem + 1.5vw)!important;
-line-height: calc(3.2rem + 1.5vw)!important;
+font-size: calc(3.5rem + 1.5vw)!important;
+line-height: calc(3.5rem + 1.5vw)!important;
 }
 
 h2,.h2 {
@@ -114,13 +114,36 @@ h6,.h6 {
   letter-spacing: 2px;
   }
 
+  .extra-bold {
+    font-weight: 900!important;
+  }
+
+  .extra-bold {
+    font-weight: 800!important;
+  }
 
   .bold {
     font-weight: 700!important;
   }
 
+  .semi-bold {
+    font-weight: 600!important;
+  }
+
   .medium {
     font-weight: 500!important;
+  }
+
+  .regular {
+    font-weight: 400!important;
+  }
+
+  .thin {
+    font-weight: 300!important;
+  }
+
+  .light {
+    font-weight: 200!important;
   }
 
 
@@ -271,6 +294,7 @@ h6,.h6 {
 
  .table-striped-columns>:not(caption)>tr>:nth-child(2n) {
   --bs-table-accent-bg: #F5F9F8!important;
+
 }
 
 
