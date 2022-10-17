@@ -143,7 +143,7 @@ export default function Home() {
                     <thead>
                       <tr>
                         <th className="w-50 text-muted regular">Features</th>
-                        <th className="w-50 green regular">Benefits</th>
+                        <th className="w-50 green medium">Benefits</th>
                       </tr>
                     </thead>
                     <tbody className="dark-grey">
