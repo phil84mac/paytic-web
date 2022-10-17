@@ -122,7 +122,7 @@ export default function Home() {
           <Container fluid className="px-xl-5 px-4 px-lg-5 py-5">
             <div className="px-xl-5 py-5">
             <Row className="px-xl-5 py-3">
-              <Col md={6} className="d-flex align-items-center">
+              <Col md={6} className="d-flex align-items-center justify-content-center">
                 <div>
                   <Image src="/paytic-infographic.svg" className="w-100 d-none d-md-block mt-4"/>
                 </div>
@@ -139,11 +139,11 @@ export default function Home() {
                   <p className="text-muted mb-4">
                   While the cardholder & acquirer-facing side of the payments ecosystem has seen significant technology innovation, the issuer-facing or back-office side has remained largely stagnant. To get the work done, there's generally a lack of expertise, silos of data and tedious manual work. <span className="bold">PayTic Connect</span> connects your data and automates processes, to give you more time to focus on your business.
                   </p>
-                  <Table striped="columns" bordered hover variant="dark" className="mb-4">
+                  <Table striped="columns" hover className="mb-4 border-top">
                     <thead>
                       <tr>
-                        <th className="w-50 gold medium">Features</th>
-                        <th className="w-50 gold medium">Benefits</th>
+                        <th className="w-50 green medium">Features</th>
+                        <th className="w-50 green medium">Benefits</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -168,7 +168,7 @@ export default function Home() {
                   <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" className="w-100 mb-3 d-none">
                     BOOK A DEMO
                   </Button>
-                  <Button onClick={handleShowVideo} variant="secondary" className="w-100 video">
+                  <Button onClick={handleShowVideo} variant="secondary" className="w-100 video mt-2">
                     WATCH VIDEO
                   </Button>
                 </div>
