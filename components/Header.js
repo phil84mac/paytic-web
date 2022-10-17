@@ -30,7 +30,7 @@ export default function Header() {
                   How it works
                 </Button>
                 <Button href="#who-its-for" variant="link" className="px-3 mx-2 text-decoration-none text-uppercase">
-                 The why of paytic
+                 why it works
                 </Button>
                 <Button href="#about" variant="link" className="px-3 ms-2 me-3 text-decoration-none text-uppercase">
                   About
@@ -75,7 +75,7 @@ export default function Header() {
                   How it works
                 </Button>
                 <Button href="#who-its-for" onClick={handleClose} variant="link" className="w-100 menu px-0 my-3 text-decoration-none text-uppercase ">
-                  The why of paytic
+                  why it works
                 </Button>
                 <Button href="#about" onClick={handleClose} variant="link" className="w-100 menu px-0 my-3 text-decoration-none text-uppercase ">
                   About

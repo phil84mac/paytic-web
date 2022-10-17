@@ -26,7 +26,7 @@ export default function Footer() {
                   How it works
                 </Button>
                 <Button href="#who-its-for" variant="link" className="px-3 mx-2 text-decoration-none text-uppercase dark-grey d-none d-lg-block">
-                  The why of paytic
+                 Why it works
                 </Button>
                 <Button href="#about" variant="link" className="px-3 ms-2 me-3 text-decoration-none text-uppercase dark-grey d-none d-lg-block">
                   About
