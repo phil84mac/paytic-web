@@ -142,7 +142,7 @@ export default function Home() {
                   <Table striped="columns" className="mb-4 border-top">
                     <thead>
                       <tr>
-                        <th className="w-50 text-muted regular">Features</th>
+                        <th className="w-50 regular">Features</th>
                         <th className="w-50 green medium">Benefits</th>
                       </tr>
                     </thead>

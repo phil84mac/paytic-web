@@ -357,10 +357,6 @@ top: 30px;
   transform: rotate(0deg);
 }
 
-.chevron {
-  width: 15px;
-}
-
 
 @media (max-width: 576px) {
 
