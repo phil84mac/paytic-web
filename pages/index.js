@@ -150,70 +150,70 @@ export default function Home() {
                       <tr className="small text-muted">
                         <td>
                           <Row>
-                            <Col xs={11}>
+                            <Col xs={10}>
                               <p className="m-0 p-0">
                               Automation of critical processes relayed to reconciliation, fraud monitoring and chargebacks
                               </p>
                             </Col>
-                            <Col xs={1} className="d-flex align-items-center">
+                            <Col xs={2} className="d-flex align-items-center justify-content-end">
                               <div>
-                                <Image src="/chevron-right.svg" className="w-100" />
+                                <Image src="/chevron-right.svg" className="w-50" />
                               </div>
                             </Col>
                           </Row>
                         </td>
-                        <td>Free up time for more value-add activities and your card program more <span className="semi-bold ">efficiently</span></td>
+                        <td className="align-middle">Free up time for more value-add activities and your card program more <span className="semi-bold ">efficiently</span></td>
                       </tr>
                       <tr className="small text-muted">
                         <td>
                         <Row>
-                            <Col xs={11}>
+                            <Col xs={10}>
                               <p className="m-0 p-0">
                               Embedded transitioning of cross-functional processed within one system of record
                               </p>
                             </Col>
-                            <Col xs={1} className="d-flex align-items-center">
+                            <Col xs={2} className="d-flex align-items-center justify-content-end">
                               <div>
-                                <Image src="/chevron-right.svg" className="w-100" />
+                                <Image src="/chevron-right.svg" className="w-50" />
                               </div>
                             </Col>
                           </Row>
                           </td>
-                        <td>Remove blind spots and help with regulatory <span className="semi-bold ">compliance</span></td>
+                        <td className="align-middle">Remove blind spots and help with regulatory <span className="semi-bold ">compliance</span></td>
                       </tr>
                       <tr className="small text-muted">
                         <td>
                         <Row>
-                            <Col xs={11}>
+                            <Col xs={10}>
                               <p className="m-0 p-0">
                               Omni-channel program management solution already integrated with processors and payment networks
                               </p>
                             </Col>
-                            <Col xs={1} className="d-flex align-items-center">
+                            <Col xs={2} className="d-flex align-items-center justify-content-end">
                               <div>
-                                <Image src="/chevron-right.svg" className="w-100" />
+                                <Image src="/chevron-right.svg" className="w-50" />
                               </div>
                             </Col>
                           </Row>
                           </td>
-                        <td>Increase your <span className="semi-bold ">capacity</span> to launch and scale new payment programs</td>
+                        <td className="align-middle">Increase your <span className="semi-bold ">capacity</span> to launch and scale new payment programs</td>
                       </tr>
                       <tr className="small text-muted">
                         <td>
                           <Row>
-                            <Col xs={11}>
+                            <Col xs={10}>
                               <p className="m-0 p-0">
                               A Saas, scalable approach to providing an end-to-end solution
                               </p>
                             </Col>
-                            <Col xs={1} className="d-flex align-items-center">
+                            <Col xs={2} className="d-flex align-items-center justify-content-end">
                               <div>
-                                <Image src="/chevron-right.svg" className="w-100" />
+                                <Image src="/chevron-right.svg" className="w-50" />
                               </div>
                             </Col>
                           </Row> 
                         </td>
-                        <td>Allow us to focus on the technology, while you focus on business <span className="semi-bold ">outcomes</span></td>
+                        <td className="align-middle">Allow us to focus on the technology, while you focus on business <span className="semi-bold ">outcomes</span></td>
                       </tr>
                     </tbody>
                   </Table>               
@@ -292,7 +292,7 @@ export default function Home() {
                             <p className="">
                             Founder & CEO
                             </p>
-                            <p className="text-muted">
+                            <p className="text-muted pe-xl-5">
                             Imad founded PayTic in 2020 to power the industry with dedicated technologies that help BIN sponsors and their affiliates in complying with the industry standards and managing their day-to-day operations including chargebacks, frauds, customer support, reconciliation, and more. He has 15+ years experience in Payment Cards Processing including credit, debit, prepaid cards, mobile payments, and processing operations.
                             </p>
                           </div>
@@ -314,7 +314,7 @@ export default function Home() {
                             <p className="">
                             Chief Product Officer
                             </p>
-                            <p className="text-muted">
+                            <p className="text-muted pe-xl-5">
                             Gerry is responsible for product strategy, product marketing and product management. Over the span of 20 years, Gerry has held various product leadership roles at iWave and IBM. He has a passion for solving client problems with technology, and he has helped build several award-winning products.
                             </p>
                           </div>
@@ -336,7 +336,7 @@ export default function Home() {
                             <p className="">
                             VP of Client Success
                             </p>
-                            <p className="text-muted">
+                            <p className="text-muted pe-xl-5">
                             Ayyoub is responsible for ensuring that PayTic's clients are getting maximum value from their SaaS subscription.  Before PayTic Ayyoub managed payment programs for over 50 banks and financial institutions in Europe, Asia, and Americas. He has worked closely with executives at these institutions to monitor performance, improve processes, and optimize their operations.
                             </p>
                           </div>
@@ -358,7 +358,7 @@ export default function Home() {
                             <p className="">
                             CTO
                             </p>
-                            <p className="text-muted">
+                            <p className="text-muted pe-xl-5">
                             Laila is responsible for the development, security and the scalability of the PayTic product. Laila holds a doctorate in computer science and a master's degree in computer systems from the University of Quebec in Montreal. She has worked as an IT manager/director at several IT service companies and as a University professor at Hassan II University in Morocco.                            </p>
                           </div>
                         </Col>
