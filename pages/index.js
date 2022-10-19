@@ -12,10 +12,15 @@ import Table from 'react-bootstrap/Table';
 
 export default function Home() {
 
-  const [show, setShowVideo] = useState(false);
+  const [showVideo, setShowVideo] = useState(false);
 
   const handleCloseVideo = () => setShowVideo(false);
   const handleShowVideo = () => setShowVideo(true);
+
+  const [showCareer1, setShowCareer1] = useState(false);
+
+  const handleCloseCareer1 = () => setShowCareer1(false);
+  const handleShowCareer1 = () => setShowCareer1(true);
 
   return (
       <>
@@ -132,9 +137,9 @@ export default function Home() {
                   <h6 className="text-muted pt-3 mb-4 border-top">
                     Why it works
                   </h6>
-                  <h3 className="mb-4">
+                  <h2 className="mb-4">
                   Connect your Data, Automate Processes
-                  </h3>
+                  </h2>
                   <p className="text-muted mb-4">
                   While the cardholder & acquirer-facing side of the payments ecosystem has seen significant technology innovation, the issuer-facing or back-office side has remained largely stagnant. To get the work done, there's generally a lack of expertise, silos of data and tedious manual work. <span className="bold">PayTic Connect</span> connects your data and automates processes, to give you more time to focus on your business.
                   </p>
@@ -230,7 +235,7 @@ export default function Home() {
           </Container>
         </section>
 
-        <Modal show={show} onHide={handleCloseVideo} size="lg" centered>
+        <Modal show={showVideo} onHide={handleCloseVideo} size="lg" centered>
           <Modal.Header closeButton>
             <Modal.Title className="h6 text-muted">
             Watch video
@@ -260,12 +265,12 @@ export default function Home() {
                   Empowering Payment Program Managers to Modernize Their Back-Office
                 </h2>
               </Col>
-              <Col lg={4} xl={3} className="mb-5 mb-lg-0">
+              <Col lg={4} xl={3} className="mb-4 mb-lg-0">
                 <div className="sticky">
                 <h6 className="gold-text medium pt-3 mb-3 border-top-gold">
                     OUR MISSION
                   </h6>
-                  <p className="lead ">
+                  <p className="lead medium">
                 Help banks, credit unions, and fintech companies modernize their payment program management functions via SaaS product
                 </p>
                   <p className="text-muted">
@@ -273,7 +278,7 @@ export default function Home() {
                 </p>
                 </div>
               </Col>
-              <Col lg={8} xl={9} className="mb-5 mb-lg-0">
+              <Col lg={8} xl={9} className="">
               <h6 className="green medium pt-3 mb-4 border-top-green">
                     LEADERSHIP TEAM
               </h6>
@@ -368,21 +373,71 @@ export default function Home() {
                 </Row>
               </Col>
             </Row>
-            <Row className="px-xl-5 py-3 mt-5">
-                <Col lg={8} xl={9}>
+            <Row className="px-xl-5 py-3 mt-4">
+                <Col lg={6}>
                     <h6 className="text-muted pt-3 mb-4 border-top">
                       NEWS
                     </h6>
+                    <div className="border-radius border-grey p-4 mb-5">
+                      <Row>
+                        <Col md={3} lg={4}>
+                          <Image src="/placeholder.png" className="w-100 mb-4 mb-md-0"/>
+                        </Col>
+                        <Col md={9} lg={8} className="">
+                          <div className="d-flex align-items-start flex-column bd-highlight h-100">
+                            <a></a>
+                            <h3 className="">
+                            Build Ventures leads C$2.95m funding of fintech startup PayTic
+                            </h3>
+                            <p className="text-muted small"> 
+                            Source: Venture Capital Journal
+                            </p>
+                            <Button href="https://www.venturecapitaljournal.com/?p=20000003657824" target="_blank" variant="secondary" className="mt-auto px-3 text-decoration-none text-uppercase">
+                            READ ARTICLE
+                            </Button>
+                          </div>
+                        </Col>
+                      </Row>
+                    </div>
                 </Col>
-                <Col lg={4} xl={3}>
+                <Col lg={6} >
                     <h6 className="text-muted pt-3 mb-4 border-top">
                       CAREERS
                     </h6>
+                    <div className="d-flex align-items-start flex-column bd-highlight border-radius border-grey p-4">
+                      <h4>
+                      Director of Product
+                      </h4>
+                      <p className="text-muted">
+                      We are currently looking for an experienced product leader to help direct the product
+                      strategy and roadmap, manage product and UX team, drive and enforce agile development
+                      principles and work cross-functionally with all teams to push products forward.
+                      </p>
+                      <Button onClick={handleShowCareer1} variant="secondary" className="mt-auto px-3 text-decoration-none text-uppercase modal-arrow">
+                      LEARN MORE
+                      </Button>
+                    </div>
                 </Col>
               </Row>
             </div>
           </Container>
         </section>
+
+        <Modal show={showCareer1} onHide={handleCloseCareer1} size="lg" centered>
+          <Modal.Header closeButton>
+            <Modal.Title className="h6 text-muted">
+            CAREERS
+            </Modal.Title>
+          </Modal.Header>
+          <Modal.Body className="vh-80">
+
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="dark" onClick={handleCloseCareer1}>
+              CLOSE
+            </Button>
+          </Modal.Footer>
+        </Modal>
         
       </main>
       
