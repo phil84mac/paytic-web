@@ -22,14 +22,11 @@ export default function Footer() {
               </div>
                 
               <div className="d-flex align-items-center">
-                <Button href="#how-it-works" variant="link" className="px-3 mx-2 text-decoration-none text-uppercase dark-grey d-none d-lg-block">
-                  How it works
+                <Button href="https://mobile.twitter.com/payticconnect" variant="link" className="p-0 mx-3">
+                 <Image fluid src="/twitter.svg" className="w-100" alt="Twitter logo button" />
                 </Button>
-                <Button href="#who-its-for" variant="link" className="px-3 mx-2 text-decoration-none text-uppercase dark-grey d-none d-lg-block">
-                 Why it works
-                </Button>
-                <Button href="#about" variant="link" className="px-3 ms-2 me-3 text-decoration-none text-uppercase dark-grey d-none d-lg-block">
-                  About
+                <Button href="https://mobile.twitter.com/payticconnect" variant="link" className="p-0 ms-2 me-3">
+                  <Image fluid src="/linkedIn.svg" className="w-100" alt="Twitter logo button" />
                 </Button>
                 <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" variant="dark" className="ms-3 text-decoration-none text-uppercase">
                   Book a demo
