@@ -36,13 +36,13 @@ export default function Home() {
         <section id="hero" className="bg-shape-top px-0 py-lg-4">
           <Container fluid className="px-xl-5 py-5 px-4 px-lg-5 bg-hero">
             <div className="px-xl-5 py-5">
-            <Row className="vh-65 mb-4 px-xl-5 pt-md-3">
-              <Col lg={6} className="mb-md-5">
+            <Row className="vh-70 mb-4 px-xl-5 pt-md-3">
+              <Col md={6} className="mb-md-5">
                <h1 className="mt-0">
                A smarter way to manage card programs
                </h1>
               </Col>
-              <Col lg={6} className="mt-auto multiply">
+              <Col md={6} className="mt-auto multiply">
                <p className="lead text-muted border-top pt-3">
                We help payment card issuers (banks, credit unions & fintechs) modernize their program management functions including reconciliation, chargebacks and compliance via an easy to use, secure SaaS solution. 
                </p>
@@ -50,17 +50,17 @@ export default function Home() {
             </Row>
             <Row className="mt-xs-5">
               <Col xs={12} className="d-flex justify-content-center mb-3">
-                <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" className="w-100 d-lg-none">
+                <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" className="w-100 d-md-none">
                   BOOK A DEMO
                 </Button>
               </Col>
               <Col xs={12} className="d-flex justify-content-center">
-                <Button href="#how-it-works" variant="secondary" className="w-100 d-lg-none arrow-down">
+                <Button href="#how-it-works" variant="secondary" className="w-100 d-md-none arrow-down">
                   LEARN MORE
                 </Button>
               </Col>
               <Col xs={12} className="d-flex justify-content-center">
-                <Button href="#how-it-works" variant="secondary" className="d-none d-lg-block arrow-down">
+                <Button href="#how-it-works" variant="secondary" className="d-none d-md-block arrow-down">
                   LEARN MORE
                 </Button>
               </Col>

@@ -14,7 +14,7 @@ export default function Header() {
   const handleShow = () => setShow(true);
   return (
     <>
-    <div className="px-lg-5 w-100 d-none d-lg-block top-nav py-3">
+    <div className="px-4 px-lg-5 w-100 d-none d-md-block top-nav py-3">
       <Container fluid className="px-xl-5">
           <Row className="px-xl-5">
             <Col xs={12} className=" d-flex align-items-center justify-content-between px-0 px-xl-2">
@@ -26,13 +26,13 @@ export default function Header() {
               </div>
                 
               <div className="d-flex align-items-center px-xl-1">
-                <Button href="#how-it-works" variant="link" className="px-3 mx-2 text-decoration-none text-uppercase">
+                <Button href="#how-it-works" variant="link" className="px-3 mx-lg-2 text-decoration-none text-uppercase">
                   How it works
                 </Button>
-                <Button href="#who-its-for" variant="link" className="px-3 mx-2 text-decoration-none text-uppercase">
+                <Button href="#who-its-for" variant="link" className="px-3 mx-lg-2 text-decoration-none text-uppercase">
                  Why it works
                 </Button>
-                <Button href="#about" variant="link" className="px-3 ms-2 me-3 text-decoration-none text-uppercase">
+                <Button href="#about" variant="link" className="px-3 ms-lg-2 me-lg-3 text-decoration-none text-uppercase">
                   About
                 </Button>
                 <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" className="ms-3 text-decoration-none text-uppercase">
@@ -44,7 +44,7 @@ export default function Header() {
       </Container>
     </div>
 
-    <div className="px-4 w-100 d-lg-none top-nav py-3" id="home">
+    <div className="px-4 w-100 d-md-none top-nav py-3" id="home">
       <Container fluid className="px-0">
           <Row className="">
             <Col xs={12} className=" d-flex align-items-center justify-content-between pe-0">

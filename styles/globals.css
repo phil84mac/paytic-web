@@ -302,7 +302,6 @@ li {
   --bs-table-hover-bg: #F5F9F8!important;
  }
 
-
  .table-striped-columns>:not(caption)>tr>:nth-child(2n) {
   --bs-table-accent-bg: #F5F9F8!important;
 }
@@ -376,17 +375,50 @@ top: 30px;
   transform: rotate(0deg);
 }
 
+/* md */
+
+@media (max-width: 992px) {
+
+  h1,.h1 {
+    font-size: calc(3.2rem + 1vw)!important;
+    line-height: calc(3.2rem + 1vw)!important;
+    }
+
+
+  }
+
+/* md */
+
+@media (max-width: 768px) {
+  .bg-hero {
+    background-size: 123%;
+    background-position: 0% 40%;
+   }
+
+   h1,.h1 {
+    font-size: calc(3.2rem + 1.5vw)!important;
+    line-height: calc(3.2rem + 1.5vw)!important;
+    }
+
+}
+
+/* md */
 
 @media (max-width: 576px) {
 
   h1,.h1 {
-    font-size: 3.5rem!important;
-    line-height: 3.5rem!important;
+    font-size: 3.2rem!important;
+    line-height: 3.2rem!important;
     }
 
     h2,.h2 {
       font-size: 2.6rem!important;
       line-height: 2.9rem!important;
       }
+
+      .bg-hero {
+        background-size: 115%;
+        background-position: -20% -10%;
+       }
 
  }
