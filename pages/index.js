@@ -265,7 +265,7 @@ export default function Home() {
                   Empowering Payment Program Managers to Modernize Their Back-Office
                 </h2>
               </Col>
-              <Col lg={4} xl={3} className="mb-4 mb-lg-0">
+              <Col lg={4} xxl={3} className="mb-4 mb-lg-0">
                 <div className="sticky">
                 <h6 className="gold-text medium pt-3 mb-3 border-top-gold">
                     OUR MISSION
@@ -278,7 +278,7 @@ export default function Home() {
                 </p>
                 </div>
               </Col>
-              <Col lg={8} xl={9} className="">
+              <Col lg={8} xxl={9} className="">
               <h6 className="green medium pt-3 mb-4 border-top-green">
                     LEADERSHIP TEAM
               </h6>
@@ -374,7 +374,7 @@ export default function Home() {
               </Col>
             </Row>
             <Row className="px-xl-5 py-3 mt-4">
-                <Col lg={8}>
+                <Col lg={8} xxl={9}>
                     <h6 className="text-muted pt-3 mb-4 border-top">
                       NEWS
                     </h6>
@@ -400,7 +400,7 @@ export default function Home() {
                       </Row>
                     </div>
                 </Col>
-                <Col lg={4}>
+                <Col lg={4} xxl={3}>
                     <h6 className="text-muted pt-3 mb-4 border-top">
                       CAREERS
                     </h6>
