@@ -19,13 +19,13 @@ export default function Header() {
           <Row className="px-xl-5">
             <Col xs={12} className=" d-flex align-items-center justify-content-between px-0 px-xl-2">
         
-              <div className="pntr d-flex align-items-center">
+              <div className="pntr d-flex align-items-center px-xl-1">
                 <Link href="/">
                   <Image fluid src="/paytic-logo-green.svg" className="w-60" alt="PayTic Logo"/>
                 </Link>
               </div>
                 
-              <div className="d-flex align-items-center">
+              <div className="d-flex align-items-center px-xl-1">
                 <Button href="#how-it-works" variant="link" className="px-3 mx-2 text-decoration-none text-uppercase">
                   How it works
                 </Button>

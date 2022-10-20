@@ -13,15 +13,15 @@ export default function Footer() {
         <div className="px-3 px-lg-5 w-100 py-3">
         <Container fluid className="px-xl-5">
           <Row className="px-xl-5">
-            <Col xs={12} className=" d-flex align-items-center justify-content-between px-2 px-lg-0 px-xl-2">
+            <Col xs={12} className="d-flex align-items-center justify-content-between px-2 px-lg-0 px-xl-2 ">
         
-              <div className="pntr d-flex align-items-center">
+              <div className="pntr d-flex align-items-center px-xl-1">
                 <a href="/" className="">
                   <Image fluid src="/paytic-logo-black.svg" className="footer-logo" alt="PayTic Logo"/>
                 </a>
               </div>
                 
-              <div className="d-flex align-items-center">
+              <div className="d-flex align-items-center px-xl-1">
                 <a href="https://mobile.twitter.com/payticconnect" target="_blank" className="p-0 me-3">
                  <Image fluid src="/twitter.svg" className="w-100" alt="Twitter logo button" />
                 </a>
