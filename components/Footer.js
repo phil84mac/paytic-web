@@ -9,26 +9,26 @@ import Button from 'react-bootstrap/Button';
 export default function Footer() {
   return (
     <>
-      <footer className="vh-30 d-flex align-items-end">
+      <footer className="vh-20 d-flex align-items-end">
         <div className="px-3 px-lg-5 w-100 py-3">
         <Container fluid className="px-xl-5">
           <Row className="px-xl-5">
-            <Col xs={12} className=" d-flex align-items-center justify-content-between">
+            <Col xs={12} className=" d-flex align-items-center justify-content-between px-2 px-lg-0 px-xl-2">
         
               <div className="pntr d-flex align-items-center">
-                <Link href="/">
-                  <Image fluid src="/paytic-logo-black.svg" className="w-60" alt="PayTic Logo"/>
-                </Link>
+                <a href="/" className="">
+                  <Image fluid src="/paytic-logo-black.svg" className="footer-logo" alt="PayTic Logo"/>
+                </a>
               </div>
                 
               <div className="d-flex align-items-center">
-                <Button href="https://mobile.twitter.com/payticconnect" target="_blank" variant="link" className="p-0 mx-3">
+                <a href="https://mobile.twitter.com/payticconnect" target="_blank" className="p-0 me-3">
                  <Image fluid src="/twitter.svg" className="w-100" alt="Twitter logo button" />
-                </Button>
-                <Button href="https://mobile.twitter.com/payticconnect" target="_blank" variant="link" className="p-0 ms-2 me-3">
+                </a>
+                <a href="https://mobile.twitter.com/payticconnect" target="_blank" className="p-0 ">
                   <Image fluid src="/linkedIn.svg" className="w-100" alt="Twitter logo button" />
-                </Button>
-                <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" variant="dark" className="ms-3 text-decoration-none text-uppercase">
+                </a>
+                <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" variant="dark" className="ms-3 text-decoration-none text-uppercase d-none d-sm-block">
                   Book a demo
                 </Button>
               </div>

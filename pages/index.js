@@ -36,8 +36,8 @@ export default function Home() {
         <section id="hero" className="bg-shape-top px-0 py-lg-4">
           <Container fluid className="px-xl-5 py-5 px-4 px-lg-5 bg-hero">
             <div className="px-xl-5 py-5">
-            <Row className="vh-65 mb-4 px-xl-5 pt-3">
-              <Col lg={6} className="mb-md-5">
+            <Row className="vh-65 mb-4 px-xl-5 pt-md-3">
+              <Col lg={6} className="mb-md-5 px-xl-1">
                <h1 className="mt-0">
                A smarter way to manage card programs
                </h1>
@@ -270,7 +270,7 @@ export default function Home() {
                 <h6 className="gold-text medium pt-3 mb-3 border-top-gold">
                     OUR MISSION
                   </h6>
-                  <p className="lead medium">
+                  <p className="lead ">
                 Help banks, credit unions, and fintech companies modernize their payment program management functions via SaaS product
                 </p>
                   <p className="text-muted">
@@ -374,22 +374,22 @@ export default function Home() {
               </Col>
             </Row>
             <Row className="px-xl-5 py-3 mt-4">
-                <Col lg={6}>
+                <Col lg={8} xl={8}>
                     <h6 className="text-muted pt-3 mb-4 border-top">
                       NEWS
                     </h6>
                     <div className="border-radius border-grey p-4 mb-5">
                       <Row>
-                        <Col md={3} lg={4}>
-                          <Image src="/placeholder.png" className="w-100 mb-4 mb-md-0"/>
+                        <Col md={5}>
+                          <Image src="/PayTicSign.png" className="w-100 mb-4 mb-md-0" alt="PayTic Sign"/>
                         </Col>
-                        <Col md={9} lg={8} className="">
+                        <Col md={7}>
                           <div className="d-flex align-items-start flex-column bd-highlight h-100">
                             <a></a>
                             <h3 className="">
                             Build Ventures leads C$2.95m funding of fintech startup PayTic
                             </h3>
-                            <p className="text-muted small"> 
+                            <p className="text-muted small mb-4"> 
                             Source: Venture Capital Journal
                             </p>
                             <Button href="https://www.venturecapitaljournal.com/?p=20000003657824" target="_blank" variant="secondary" className="mt-auto px-3 text-decoration-none text-uppercase">
@@ -400,7 +400,7 @@ export default function Home() {
                       </Row>
                     </div>
                 </Col>
-                <Col lg={6} >
+                <Col lg={4} xl={4}>
                     <h6 className="text-muted pt-3 mb-4 border-top">
                       CAREERS
                     </h6>
@@ -408,12 +408,12 @@ export default function Home() {
                       <h4>
                       Director of Product
                       </h4>
-                      <p className="text-muted">
+                      <p className="text-muted small">
                       We are currently looking for an experienced product leader to help direct the product
                       strategy and roadmap, manage product and UX team, drive and enforce agile development
                       principles and work cross-functionally with all teams to push products forward.
                       </p>
-                      <Button onClick={handleShowCareer1} variant="secondary" className="mt-auto px-3 text-decoration-none text-uppercase modal-arrow">
+                      <Button onClick={handleShowCareer1} variant="secondary" className="mt-auto px-3 text-decoration-none text-uppercase">
                       LEARN MORE
                       </Button>
                     </div>
@@ -423,14 +423,92 @@ export default function Home() {
           </Container>
         </section>
 
-        <Modal show={showCareer1} onHide={handleCloseCareer1} size="lg" centered>
+        <Modal show={showCareer1} onHide={handleCloseCareer1} scrollable size="lg" centered>
           <Modal.Header closeButton>
             <Modal.Title className="h6 text-muted">
             CAREERS
             </Modal.Title>
           </Modal.Header>
-          <Modal.Body className="vh-80">
-
+          <Modal.Body>
+              <h3>
+                Director of Product
+              </h3>
+              <p className="text-muted">
+              PayTic Inc is a fast-growing SaaS company that offers an innovative product, which helps banks,
+              FinTechs and credit unions modernize their back-office payment programs and grow their
+              business. We are currently looking for an experienced product leader to help direct the product
+              strategy and roadmap, manage product and UX team, drive and enforce agile development
+              principles and work cross-functionally with all teams to push products forward. The Director of
+              Product reports to the CPO and will be a member of the senior management team.
+              </p>
+              <hr />
+              <Row>
+                <Col md={6}>
+                  <h5>
+                  Key Responsibilities
+                  </h5>
+                  <ul className="text-muted small">
+                    <li>
+                    Assist with development of the product roadmap and strategy
+                    </li>
+                    <li>
+                    Manage new members of the product team and partner with engineering to prioritize
+                    development, following agile principles
+                    </li>
+                    <li>
+                    Direct a cross-functional product portfolio process, working collaboratively with
+                    engineering, client success and the executive team
+                    </li>
+                    <li>
+                    Balance resource allocation between immediate opportunities that will drive short term
+                    adoption and revenue, against longer term strategic initiatives
+                    </li>
+                    <li>
+                    Understand, identify, and balance a product that meets the demands of multiple client
+                    types (banks, FinTechs, credit unions) and market segments
+                    </li>
+                  </ul>
+                </Col>
+                <Col md={6}>
+                <h5>
+                  Qualifications
+                  </h5>
+                  <ul className="text-muted small">
+                    <li>
+                    As the ideal candidate, you are a leader with at least 5+ years of experience in a product
+                    management role including 3+ years as a product owner in a scrum or agile
+                    development model
+                    </li>
+                    <li>
+                    You can demonstrate a record of “ideation to execution” in a SaaS environment and
+                    have experience in B2B SaaS business models
+                    </li>
+                    <li>
+                    You are someone who has direct experience with end-to-end product lifecycles in agile
+                    development environments
+                    </li>
+                    <li>
+                    You are data-driven, highly motivated to delight the end user, and have a track record of
+                    identifying user challenges and turning them into business opportunities
+                    </li>
+                    <li>
+                    Experience in payments industry is highly valuable
+                    </li>
+                  </ul>
+                </Col>
+              </Row>
+              <hr className="mt-0"/>
+              <p className="text-muted small regular">
+              PayTic is an organization with a vision; revolutionize the back-office of payment program
+              management. We understand that better workplaces are built around respect; respecting the
+              client, respecting the product, and most importantly, respecting and supporting each other. We
+              offer competitive salaries, flexible hours, generous vacation days, personal time off when needed and
+              will equip you with whatever gear you need.
+              </p>
+              <hr />
+              <p className="medium">
+              Apply now by emailing your resume and cover letter to <a href="mailto:info@payticconnect.com" className="green medium">info@payticconnect.com</a>
+              </p>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="dark" onClick={handleCloseCareer1}>

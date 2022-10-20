@@ -77,7 +77,7 @@ h2,.h2 {
   font-family: 'Inter', sans-serif!important;
   font-style: normal;
   font-weight: 500!important;
-  font-size: calc(2.5rem + 1.5vw)!important;
+  font-size: calc(2.4rem + 1.5vw)!important;
   line-height: calc(2.6rem + 1.5vw)!important;
   }
 
@@ -85,8 +85,8 @@ h3,.h3 {
   font-family: 'Inter', sans-serif!important;
   font-style: normal;
   font-weight: 500!important;
-  font-size: 1.8rem!important;
-    line-height: 2rem!important;
+  font-size: 1.9rem!important;
+    line-height: 2.1rem!important;
   }
 
   h4,.h4 {
@@ -101,7 +101,7 @@ h3,.h3 {
       font-family: 'Inter', sans-serif!important;
       font-style: normal;
       font-weight: 500!important;
-      font-size: 16px!important;
+      font-size: 14px!important;
       letter-spacing: .5px;
       }
 
@@ -263,6 +263,12 @@ h6,.h6 {
   position: absolute;
  }
 
+li {
+  font-size: .875em!important;
+  color: #6c757d!important;
+}
+ 
+
 
  /* images */
 
@@ -284,6 +290,10 @@ h6,.h6 {
   background-repeat: no-repeat;
   background-position: center;
  }
+
+.footer-logo {
+  width: 96px;
+}
 
 
  /* tables */
@@ -373,5 +383,10 @@ top: 30px;
     font-size: 3.5rem!important;
     line-height: 3.5rem!important;
     }
+
+    h2,.h2 {
+      font-size: 2.6rem!important;
+      line-height: 2.9rem!important;
+      }
 
  }

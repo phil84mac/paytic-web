@@ -17,7 +17,7 @@ export default function Header() {
     <div className="px-lg-5 w-100 d-none d-lg-block top-nav py-3">
       <Container fluid className="px-xl-5">
           <Row className="px-xl-5">
-            <Col xs={12} className=" d-flex align-items-center justify-content-between">
+            <Col xs={12} className=" d-flex align-items-center justify-content-between px-0 px-xl-2">
         
               <div className="pntr d-flex align-items-center">
                 <Link href="/">
@@ -47,12 +47,12 @@ export default function Header() {
     <div className="px-4 w-100 d-lg-none top-nav py-3" id="home">
       <Container fluid className="px-0">
           <Row className="">
-            <Col xs={12} className=" d-flex align-items-center justify-content-between header-pad">
+            <Col xs={12} className=" d-flex align-items-center justify-content-between pe-0">
         
               <div className="pntr d-flex align-items-center">
-                <Link href="/">
+                <a href="/">
                   <Image fluid src="/paytic-logo-green.svg" className="w-60" alt="PayTic Logo"/>
-                </Link>
+                </a>
               </div>
                 
               <div className="d-flex align-items-center">
