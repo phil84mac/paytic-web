@@ -374,7 +374,7 @@ export default function Home() {
               </Col>
             </Row>
             <Row className="px-xl-5 py-3 mt-4">
-                <Col lg={8} xl={8}>
+                <Col lg={8}>
                     <h6 className="text-muted pt-3 mb-4 border-top">
                       NEWS
                     </h6>
@@ -400,7 +400,7 @@ export default function Home() {
                       </Row>
                     </div>
                 </Col>
-                <Col lg={4} xl={4}>
+                <Col lg={4}>
                     <h6 className="text-muted pt-3 mb-4 border-top">
                       CAREERS
                     </h6>

@@ -85,8 +85,8 @@ h3,.h3 {
   font-family: 'Inter', sans-serif!important;
   font-style: normal;
   font-weight: 500!important;
-  font-size: 1.9rem!important;
-    line-height: 2.1rem!important;
+  font-size: calc(1.2rem + 1vw)!important;
+  font-size: calc(1.5rem + 1vw)!important;
   }
 
   h4,.h4 {
