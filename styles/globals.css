@@ -396,8 +396,8 @@ top: 30px;
    }
 
    h1,.h1 {
-    font-size: calc(3.2rem + 1.5vw)!important;
-    line-height: calc(3.2rem + 1.5vw)!important;
+    font-size: calc(3.2rem + 2vw)!important;
+    line-height: calc(3.2rem + 2vw)!important;
     }
 
 }
