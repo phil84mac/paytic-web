@@ -27,8 +27,8 @@ export default function Footer() {
                 <a href="https://mobile.twitter.com/payticconnect" target="_blank" className="p-0 me-3">
                  <Image fluid src="/twitter.svg" className="w-100" alt="Twitter logo button" />
                 </a>
-                <a href="https://mobile.twitter.com/payticconnect" target="_blank" className="p-0 me-0 me-md-1">
-                  <Image fluid src="/linkedIn.svg" className="w-100" alt="Twitter logo button" />
+                <a href="https://www.linkedin.com/company/paytic-connect/" target="_blank" className="p-0 me-0 me-md-1">
+                  <Image fluid src="/linkedIn.svg" className="w-100" alt="LinkedIn logo button" />
                 </a>
                 <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" variant="dark" className="ms-3 text-decoration-none text-uppercase d-none d-sm-block">
                   Book a demo

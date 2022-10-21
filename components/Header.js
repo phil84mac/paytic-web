@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 export default function Header() {
   const [show, setShow] = useState(false);
