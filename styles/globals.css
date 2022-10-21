@@ -165,6 +165,7 @@ h6,.h6 {
   font-weight: 600!important;
   letter-spacing: .1em!important;
   mix-blend-mode: multiply;
+  text-decoration: none!important;
 }
 
 .btn-link.menu {
@@ -373,6 +374,36 @@ top: 30px;
   margin-left: 6px;
   display: inline-block;
   transform: rotate(0deg);
+}
+
+.dropdown-toggle:after {
+  content: url("/chevron-down.svg")!important;
+  position: relative;
+  display: inline-block;
+  top: 3px!important;
+  border: none!important;
+  margin-bottom: 3px;
+}
+
+/* dropdown */
+
+.dropdown-toggle {
+  padding-top: 6px!important;
+}
+
+.dropdown-menu-dark {
+  --bs-dropdown-color: #dee2e6;
+  --bs-dropdown-bg: #282828;
+  --bs-dropdown-border-color: var(--bs-border-color-translucent);
+  --bs-dropdown-box-shadow: ;
+  --bs-dropdown-link-color: #dee2e6;
+  --bs-dropdown-link-hover-color: #fff;
+  --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
+  --bs-dropdown-link-hover-bg: rgba(245, 249, 248, 0.15)!important;
+  --bs-dropdown-link-active-color: #fff;
+  --bs-dropdown-link-active-bg: #369673!important;
+  --bs-dropdown-link-disabled-color: #adb5bd;
+  --bs-dropdown-header-color: #adb5bd;
 }
 
 /* md */

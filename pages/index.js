@@ -253,13 +253,13 @@ export default function Home() {
           </Modal.Footer>
         </Modal>
 
-        <section id="about">
+        <section id="about-us">
           <Container fluid className="px-xl-5 px-4 px-lg-5 py-5">
             <div className="px-xl-5 py-5">
             <Row className="px-xl-5 py-3">
               <Col xs={12} className="mb-5">
                   <h6 className="text-muted pt-3 mb-4 border-top">
-                    About
+                    About Us
                   </h6>
                   <h2 className="">
                   Empowering Payment Program Managers to Modernize Their Back-Office
@@ -278,7 +278,7 @@ export default function Home() {
                 </p>
                 </div>
               </Col>
-              <Col lg={8} xxl={9} className="">
+              <Col lg={8} xxl={9} id="leadership-team">
               <h6 className="green medium pt-3 mb-4 border-top-green">
                     LEADERSHIP TEAM
               </h6>
@@ -374,7 +374,7 @@ export default function Home() {
               </Col>
             </Row>
             <Row className="px-xl-5 py-3 mt-4">
-                <Col lg={8} xxl={9}>
+                <Col lg={8} xxl={9} id="news">
                     <h6 className="text-muted pt-3 mb-4 border-top">
                       NEWS
                     </h6>
@@ -400,7 +400,7 @@ export default function Home() {
                       </Row>
                     </div>
                 </Col>
-                <Col lg={4} xxl={3}>
+                <Col lg={4} xxl={3} id="careers">
                     <h6 className="text-muted pt-3 mb-4 border-top">
                       CAREERS
                     </h6>

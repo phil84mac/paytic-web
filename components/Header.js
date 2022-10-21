@@ -33,9 +33,18 @@ export default function Header() {
                 <Button href="#who-its-for" variant="link" className="px-3 mx-lg-2 text-decoration-none text-uppercase">
                  Why it works
                 </Button>
-                <Button href="#about" variant="link" className="px-3 ms-lg-2 me-lg-3 text-decoration-none text-uppercase">
-                  About
-                </Button>
+                <Dropdown>
+                  <Dropdown.Toggle variant="link" className="px-3 ms-lg-2 me-lg-3 text-decoration-none text-uppercase">
+                    ABOUT
+                  </Dropdown.Toggle>
+ 
+                  <Dropdown.Menu variant="dark" align="end">
+                    <Dropdown.Item href="#about-us">About Us</Dropdown.Item>
+                    <Dropdown.Item href="#news">News</Dropdown.Item>
+                    <Dropdown.Item href="#careers">Careers</Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
+
                 <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" className="ms-3 text-decoration-none text-uppercase">
                   Book a demo
                 </Button>
@@ -78,8 +87,14 @@ export default function Header() {
                 <Button href="#who-its-for" onClick={handleClose} variant="link" className="w-100 menu px-0 my-3 text-decoration-none text-uppercase ">
                   Why it works
                 </Button>
-                <Button href="#about" onClick={handleClose} variant="link" className="w-100 menu px-0 my-3 text-decoration-none text-uppercase ">
-                  About
+                <Button href="#about-us" onClick={handleClose} variant="link" className="w-100 menu px-0 my-3 text-decoration-none text-uppercase ">
+                  About Us
+                </Button>
+                <Button href="#news" onClick={handleClose} variant="link" className="w-100 menu px-0 my-3 text-decoration-none text-uppercase ">
+                  News
+                </Button>
+                <Button href="#careers" onClick={handleClose} variant="link" className="w-100 menu px-0 my-3 text-decoration-none text-uppercase ">
+                  Careers
                 </Button>
                 <Button href="https://payticconnect-21545779.hubspotpagebuilder.com/see-a-demo" className="mt-auto bd-highlight w-100 text-decoration-none text-uppercase">
                   Book a demo
